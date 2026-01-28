@@ -1,0 +1,47 @@
+{
+  "name": "qoidalar:ofis",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "qoidalar:ofis2",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:bubble_column"
+                },
+                {
+                  "Name": "minecraft:lava"
+                },
+                {
+                  "Name": "minecraft:water"
+                },
+                {
+                  "Name": "minecraft:wheat"
+                },
+                {
+                  "Name": "minecraft:grass"
+                },
+                {
+                  "Name": "minecraft:fern"
+                },
+                {
+                  "Name": "minecraft:tall_grass"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
