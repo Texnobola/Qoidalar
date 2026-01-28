@@ -149,6 +149,19 @@
           "src/main/java/net/mcreator/qoidalar/procedures/IjtimoiySoliqMajburiyatiProcedure.java"
         ]
       }
+    },
+    {
+      "name": "KadastrHujjati",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kadastr_hujjati",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/qoidalar/models/item/kadastr_hujjati.json",
+          "src/main/java/net/mcreator/qoidalar/item/KadastrHujjatiItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -159,7 +172,8 @@
     "en_us": {
       "item.qoidalar.rais_spawn_egg": "Otam Spawn Egg",
       "entity.qoidalar.rais": "Otam",
-      "item.qoidalar.litsenziya": "Litsenziya"
+      "item.qoidalar.litsenziya": "Litsenziya",
+      "item.qoidalar.kadastr_hujjati": "Kadastr Hujjati"
     }
   },
   "metadata": {

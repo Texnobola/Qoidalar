@@ -24,6 +24,8 @@ public class QoidalarModTabs {
 			tabData.accept(QoidalarModItems.RAIS_SPAWN_EGG.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(QoidalarModItems.LITSENZIYA.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(QoidalarModItems.KADASTR_HUJJATI.get());
 		}
 	}
 }
